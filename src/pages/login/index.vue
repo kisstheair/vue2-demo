@@ -18,8 +18,8 @@
 </style>
 <template>
 	<div>
-		<v-header title="登录">
-			<router-link slot="left" to="/">返回</router-link>
+		<v-header title="登录页面">
+			<router-link slot="left" to="/">返回首页</router-link>
 		</v-header>
 		<form class="login" v-on:submit.prevent="submit">
 			<div class="line">	
